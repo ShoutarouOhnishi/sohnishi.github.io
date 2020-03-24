@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Agency - Start Bootstrap Theme</title>
+  <meta name="robots" content="noindex" />
+  <title>Shoutarou Ohnishi's Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,12 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <style>
+    .portfolio-link {
+      border: 1px lightgray solid;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -30,7 +36,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Shoutarou Ohnishi's Portfolio</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -38,17 +44,17 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Who's me?</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Works</a>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
@@ -61,7 +67,7 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
+        <div class="intro-lead-in">Welcome To My Portfolio!</div>
         <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
@@ -73,35 +79,52 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Who's me?</h2>
+          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" style="object-fit: cover;" src="img/mypic.PNG" alt="">
+            <h4>大西 翔太郎</h4>
+            <p class="text-muted">Web ・ iOS プログラマー</p>
+            <ul class="list-inline social-buttons">
+              <!-- <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li> -->
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/niship3/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+        <div class="col-sm-8">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">出身地：兵庫県</li>
+            <li class="list-group-item">現住所：京都府</li>
+            <li class="list-group-item"><p>略歴：</p>
+              <span>2017年10月 株式会社イデアライブ 入社</span><br>
+              <span>iOS・Web系の開発に従事。</span><br>
+              <span>Web系は言語・技術問わず様々な開発が可能です。</span><br>
+              <span>Linuxでのサーバー構築やAWS等のクラウドサービスも得意です。</span><br>
+              <span>競馬が趣味で、地方競馬の解析を完全自動で行うサイトを開発しました。</span><br>
+              <span>本業の傍、アプリ版もゆっくり開発しています。いつか公開します。</span><br>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
+
+
       </div>
     </div>
   </section>
@@ -112,92 +135,98 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">過去に開発したものの一部を掲載しています。<br>業務システムの開発も多く、公開できるものは一部です。</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"> -->
+          <a class="portfolio-link" href="https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%83%96%E5%B0%82%E7%94%A8%E3%82%A2%E3%83%97%E3%83%AA/id1308969945?mt=8&ign-mpt=uo%3D4" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio1.jpg" style="object-fit: cover;" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>東京クラシッククラブ</h4>
+            <p class="text-muted">ゴルフクラブ会員用アプリ</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"> -->
+          <a class="portfolio-link" href="https://apps.apple.com/jp/app/%E8%A1%80%E7%AE%A1%E3%83%8A%E3%83%93/id1459608394" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio2.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>血管ナビ</h4>
+            <p class="text-muted">血管データ管理アプリ</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"> -->
+            <a class="portfolio-link" href="https://apps.apple.com/jp/app/%E5%AE%89%E5%BF%83%E3%81%8A%E3%81%A4%E3%81%8B%E3%81%84%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AA%E3%83%84%E3%82%B3/id1143373253" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio3.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>オツコ</h4>
+            <p class="text-muted">おつかいマッチングアプリ</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"> -->
+          <a class="portfolio-link" href="https://simpletelework.com/" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio4.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+            <h4>SimpleTelework.com</h4>
+            <p class="text-muted">テレワーク監視システム</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"> -->
+          <a class="portfolio-link" href="https://job-alc.com/cw/" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio5.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <h4>ジョブアルク介護</h4>
+            <p class="text-muted">介護職専門求人サイト</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"> -->
+          <a class="portfolio-link" href="https://s-keiba.com" target="_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
+                <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/portfolio6.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <h4>地方競馬解析</h4>
+            <p class="text-muted">会員制 地方競馬解析サイト</p>
           </div>
         </div>
       </div>
@@ -205,7 +234,7 @@
   </section>
 
   <!-- About -->
-  <section class="page-section" id="about">
+  <!-- <section class="page-section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -283,10 +312,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Team -->
-  <section class="bg-light page-section" id="team">
+  <!-- <section class="bg-light page-section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -374,10 +403,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Clients -->
-  <section class="py-5">
+  <!-- <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
@@ -402,7 +431,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact -->
   <section class="page-section" id="contact">
@@ -410,12 +439,12 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">ご連絡はInstagramからお願い致します。</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -443,7 +472,7 @@
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
     </div>
@@ -454,11 +483,11 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Shoutarou Ohnishi's Portfolio 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
               <a href="#">
                 <i class="fab fa-twitter"></i>
               </a>
@@ -467,15 +496,15 @@
               <a href="#">
                 <i class="fab fa-facebook-f"></i>
               </a>
-            </li>
+            </li> -->
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.instagram.com/niship3/" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
@@ -484,7 +513,7 @@
               <a href="#">Terms of Use</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
