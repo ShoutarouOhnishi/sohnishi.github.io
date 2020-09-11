@@ -100,6 +100,23 @@
       display: block;
       /*max-height: 300px!important;*/
     }
+
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+    .callout.callout-danger {
+        border-left-color: black;
+    }
+    .callout {
+        border-radius: .25rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+        background-color: #fff;
+        border-left: 5px solid #e9ecef;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
   </style>
 
 </head>
@@ -232,7 +249,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>UMADAN</h4>
-            <p class="text-muted">競馬AI予想アプリ（趣味で開発）</p>
+            <p class="text-muted">競馬AI予想アプリ（趣味で開発）<br><span>Swift／Python(Django)</span></p>
           </div>
         </div>
         
@@ -248,7 +265,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>SimpleTelework.com</h4>
-            <p class="text-muted">テレワーク監視システム</p>
+            <p class="text-muted">テレワーク監視システム<br><span>PHP(Laravel)</span></p>
           </div>
         </div>
 
@@ -264,7 +281,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>ジョブアルク介護</h4>
-            <p class="text-muted">介護職専門求人サイト</p>
+            <p class="text-muted">介護職専門求人サイト<br><span>PHP(CakePHP)</span></p>
           </div>
         </div>
 
@@ -280,7 +297,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>東京クラシッククラブ</h4>
-            <p class="text-muted">ゴルフクラブ会員用アプリ</p>
+            <p class="text-muted">ゴルフクラブ会員用アプリ<br><span>Swift</span></p>
           </div>
         </div>
 
@@ -296,7 +313,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>血管ナビ</h4>
-            <p class="text-muted">血管データ管理アプリ</p>
+            <p class="text-muted">血管データ管理アプリ<br><span>Swift</span></p>
           </div>
         </div>
 
@@ -312,8 +329,43 @@
           </a>
           <div class="portfolio-caption">
             <h4>地方競馬データ解析</h4>
-            <p class="text-muted">Webシステム（趣味で開発）</p>
+            <p class="text-muted">Webシステム（趣味で開発）<br><span>Python(Django)</span></p>
           </div>
+        </div>
+
+        <div class="col-md-12 portfolio-item" style="margin-top: 30px;">
+          <!--<div class="portfolio-caption" style="max-width:none;">-->
+            <h4 style="text-align:center">非公開・業務システム開発実績</h4>
+            <!-- <p class="text-muted">国内最大手繊維製品業者／流通管理Webシステム開発<br><span>Java(SpringFramework)</span></p> -->
+            <div class="callout callout-danger">
+                  <h5>国内最大手繊維製品業者／流通管理Webシステム開発</h5>
+                  <span>Java(SpringFramework)</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>携帯販売代理店／Webアンケートシステム開発</h5>
+                  <span>Python(Django)</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>大手不動産会社／空き物件管理システム開発</h5>
+                  <span>AccessVBA</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>Amazon在庫数変動解析スクレイピングシステム</h5>
+                  <span>Python(AWSLambda)</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>大学法人／各種帳票出力Webシステム開発</h5>
+                  <span>C#</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>夜のお仕事マッチングアプリ開発</h5>
+                  <span>Swift／PHP(Laravel)</span>
+            </div>
+            <div class="callout callout-danger">
+                  <h5>管理栄養士と会員のコミュニケーション（チャット）アプリ開発</h5>
+                  <span>PHP(Laravel) サーバーサイドのみ担当</span>
+            </div>
+          <!--</div>-->
         </div>
 
       </div>
@@ -518,7 +570,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Contact -->
   <section class="page-section" id="contact">
